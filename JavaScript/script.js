@@ -126,7 +126,7 @@ fade.forEach((element) => {
       if (fade[i] !== element) {
         setTimeout(() => {
 
-          fade[i].classList.toggle('opacity');
+          fade[i].classList.add('opacity');
 
         }, 250);
       }
